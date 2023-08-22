@@ -1,13 +1,17 @@
-
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
 /*Header*/
 .logotype{
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
     text-transform:uppercase;
+    color: #4d5ae5;
     }
 
 .list,
@@ -23,9 +27,11 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
+}
 
-    
+.menu-link:hover,
+.menu-link:focus{
+    color: #404bbf
 }
 
 .address{
@@ -35,8 +41,12 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     font-style: normal;
+}
+
+.address:hover,
+.address:focus{
+    color: #404bbf
 }
 
 /* Main content */
@@ -52,37 +62,39 @@
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
-    text-align: center;
+    line-height: 1.07;
+    text-align: center; 
     color: white;
 }
 
-button{
+.button{
     cursor: pointer;
     background-color:#4d5ae5;
-    box-shadow: 0px 4px 4px 0px #00000026;
-}
-
-.button-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     color:#ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;
 }
 
-/*Section 2*/
-.hidden-heading {
-    display: none; 
+.button:hover,
+.button:focus{
+    background-color: #404BBF
 }
+    
+   
+
+/*Section 2*/
+
 .feature-name{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #2E2F42;
 }
 
@@ -93,7 +105,6 @@ button{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #434455;
 }
 
@@ -107,16 +118,13 @@ button{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
 .team-card{
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
     background-attachment: fixed;
     background-color: white;
 }
@@ -128,17 +136,15 @@ button{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2E2F42;
 }
 
-.position{
+.role{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 
 }
@@ -149,9 +155,9 @@ button{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
@@ -165,7 +171,6 @@ button{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #2E2F42;
     
  }
@@ -175,7 +180,6 @@ button{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #434455;
     }
 
@@ -192,7 +196,6 @@ button{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #F4F4FD;
 }
 
